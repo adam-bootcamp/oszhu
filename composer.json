@@ -1,0 +1,19 @@
+{
+    "name": "vendor/oszhu",
+    "description": "Description of project oszhu.",
+    "authors": [
+        {
+            "name": "adm",
+            "email": "your@email.here"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "oszhu\\": "src/oszhu"
+        }
+    },
+    "require-dev": {
+        "hamcrest/hamcrest-php": "dev-master",
+        "phpunit/phpunit": "^5"
+    }
+}
